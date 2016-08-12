@@ -24,8 +24,6 @@ The goal of this TestSpec is to become familiar and comfortable with looping, us
 <br>
 <hr>
 
-<hr>
-
 ###Additional Resources
 
 - Eloquent JavaScript [Control Flow](http://eloquentjavascript.net/02_program_structure.html#p_t55fBgZ9ww)
