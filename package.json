@@ -1,0 +1,25 @@
+{
+  "name": "foundations-fullstack-test-first-part-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullstackAcademy/FullstackTestFirst-Part-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FullstackAcademy/FullstackTestFirst-Part-1.git/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "grade": "node_modules/.bin/testem ci"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testem": "^1.6.0"
+  }
+}
