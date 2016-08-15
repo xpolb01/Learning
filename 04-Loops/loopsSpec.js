@@ -140,7 +140,7 @@ describe("looping over objects", function() {
   
     // This one is also tricky, here we want you to only `paramify` the properties 
     // of the object and avoid any that are on the object's 'internal prototype' (__proto__) object.
-    // To do that, use the `hasOwnProperty` method of `sObject`
+    // To do that, use the `hasOwnProperty` method of `Object`
     it("skips properties of the object's prototype and calls Object.prototype.hasOwnProperty", function() {
       
 
@@ -198,9 +198,7 @@ describe("looping over objects", function() {
       expect(paramifyObjectKeys(object)).toEqual("a=1&b=2&c=3&d=4&e=5&f=6");
     });
 
-    // This one is also tricky, here we want you to only `paramifyObjectKeys` the properties 
-    // of the object and avoid any that are on the object's 'internal prototype' (__proto__) object.
-    // To do that, use the `hasOwnProperty` method of `sObject`
+    
     it("skips properties of the object's prototype", function() {
 
       // Alphabet is a constructor function that will use the `new` method of
