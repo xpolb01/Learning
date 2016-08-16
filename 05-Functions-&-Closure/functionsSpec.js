@@ -96,17 +96,17 @@ describe("Shared contexts", function() {
   })
 
 
-  it("should return an object with three methods", function() {
+  it("should return an object with four methods", function() {
     
     expect(typeof sharedObj.oneIncrementer).toBe("function");
     expect(typeof sharedObj.tensIncrementer).toBe("function");
     expect(typeof sharedObj.getValue).toBe("function");
     expect(typeof sharedObj.setValue).toBe("function");
     // Here we're testing that you're not storing anything
-    // besides three methods.  The value that will 
+    // besides four methods.  The value that will 
     // be incremented/decremented (and returned by getValue)
     // should be only in scope during the createObjectWithClosures function call and then
-    // closed over by the three functions returned in the object
+    // closed over by the four functions returned in the object
     expect(Object.keys(sharedObj).length).toBe(4);
   });
 
