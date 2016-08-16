@@ -56,7 +56,7 @@ describe("Properties on an Array Object", function() {
       expect(arrayObject[0]).toEqual(5);
     });
 
-    it("sets the property 'twoTimes' to a function that multiplies its parameter by 1", function() {
+    it("sets the property 'twoTimes' to a function that multiplies its parameter by 2", function() {
       expect(arrayObject.twoTimes(4)).toEqual(8);
       expect(arrayObject['twoTimes'](123)).toEqual(246);
     });
