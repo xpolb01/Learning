@@ -1,0 +1,4 @@
+function setPropertiesOnObjLiteral(obj) {
+  debugger;
+
+}

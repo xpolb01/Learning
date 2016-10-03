@@ -8,7 +8,7 @@ describe("Properties on Object Literal", function() {
   beforeEach(function() {
 
     // for each test, create a new empty object
-    object = {};
+    object = {name: "Bogdan"};
 
     // then run the setPropertiesOnObjLiteral function that you've written in properties.js
     setPropertiesOnObjLiteral(object);
