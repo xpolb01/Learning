@@ -1,4 +1,5 @@
 var RPNCalculator = function() {};
+// Adding testing comment
 var emptyArrayError = function(message) {
     this.message = message;
   };
