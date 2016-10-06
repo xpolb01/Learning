@@ -136,27 +136,3 @@ var renameFiles = function(fileNames) {
   }
   return renamedFileNames;
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
