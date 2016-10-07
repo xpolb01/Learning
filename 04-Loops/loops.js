@@ -120,7 +120,7 @@ var paramifyObjectKeys = function(obj) {
 var renameFiles = function(fileNames) {
   let renamedFileNames = [];
   for(let i = 0; i < fileNames.length; i++) {
-    var file = fileNames[i];
+    var file = fileNames[i];  
     if(renamedFileNames.indexOf(file) == -1){
       renamedFileNames.push(file);
     }
