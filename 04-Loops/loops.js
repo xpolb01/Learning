@@ -1,7 +1,7 @@
 // REPEAT function is described below
 let repeat = function(el, repeatTimes) {
   let result = '';
-  for(let i = 1; i <= repeatTimes; i++) {
+  for(repeatTimes; repeatTimes > 0; repeatTimes--) {
     result += el;
   }
   return result;
@@ -17,27 +17,16 @@ let sum = function(arr) {
 // GRID GENERATOR function is described below
 let gridGenerator = function(num) {
   let grid = '';
-  for(let i = 0; i < num; i++) {
-    let gridLine = '';
-    for(let j = 0; j < num; j++) {
-      if(i % 2 === 0 ) {
-        if(j % 2 === 0) {
-          gridLine += '#';
-        }
-        else {
-          gridLine += ' ';
-        }
+  for(var i = 0; i < num; i++) {
+    for(var j = 0; j < num; j++) {
+      if((i + j) % 2 === 0 ) {
+        grid += '#';
       }
       else {
-        if(j % 2 === 0) {
-          gridLine += ' ';
-        }
-        else {
-          gridLine += '#';
-        }
+        grid += ' ';
       }
     }
-    grid += gridLine + '\n';
+    grid += '\n';
   }
   return grid;
 };
