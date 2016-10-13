@@ -1,7 +1,7 @@
 var RPNCalculator = function() {
   this.emptyArrayError = "rpnCalculator is empty";
 };
-RPNCalculator.prototype = Object.create(Array.prototype);
+RPNCalculator.prototype = new Array();
 (function(rpnProt) {
   rpnProt.popCompute = function(operationFunc) {
     if(this.length < 2) {
