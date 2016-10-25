@@ -27,7 +27,7 @@ describe("shuffle function", function() {
     it('returns the array shuffled in place', function() {
         //What does 'in place' mean?
         //It means that you are modifying the original array, not making a new array.
-        var unshuffledArray = [20,50,70]
+        var unshuffledArray = [20,50,70];
         var shuffledArray = shuffle(unshuffledArray);
         expect(shuffledArray.length).toEqual(3);
         expect(shuffledArray === shuffledArray).toEqual(true);
